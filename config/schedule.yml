@@ -1,0 +1,3 @@
+SendDailyReminder:
+  every: "1d"
+  rails_env: "production"

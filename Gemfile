@@ -16,6 +16,15 @@ gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+gem 'resque'
+gem "resque-pool"
+gem "resque-lock"
+gem 'resque-scheduler', "~> 2.0"
+gem 'resque-status', sgithub: "D1plo1d/resque-status", branch: "patch-1"
+gem 'resque-cleaner'
+gem 'resque-retry'
+gem 'resque_solo'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
